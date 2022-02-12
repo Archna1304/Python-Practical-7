@@ -1,7 +1,7 @@
 """ Id : 20CE157 
 Name : Archana Vyas
 
-Git repository:
+Git repository:https://github.com/Archna1304/Python-Practical-7.git
 
 Aim: Lapindrome is defined as a string which when split in the middle, 
 gives two halves having the same characters and same frequency of each character. 
@@ -21,9 +21,9 @@ while testCases:
     string = input()        # input is already in string format so no need to type-cast
     l = len(string)
     half = len(string) // 2
-    # check whether length divisible by two or not if yes divde the strong in two halves
+    # check whether length of string is divisible by two or not if yes divide the string in two halves
     if len(string) % 2 == 0:
-        # comparing two half divided strings
+        # comparing the two half divided strings
         if sorted(string[:half]) == sorted(string[half:]):
             print('YES')
         else:
